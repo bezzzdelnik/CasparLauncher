@@ -98,10 +98,12 @@ public partial class App : Application
                 Languages.en => new CultureInfo("en-US"),
                 Languages.es => new CultureInfo("es-ES"),
                 Languages.zh_Hans => new CultureInfo("zh-Hans"),
+                Languages.ru => new CultureInfo("ru-RU"),
                 _ => DefaultCulture.ToString() switch
                 {
                     "es-ES" or "es-MX" or "es-AR" => new("es-ES"),
                     "zh-CN" or "zh-Hans" or "zh-Hans-CN" or "zh-SG" or "zh-Hans-SG" => new("zh-Hans"),
+                    "ru-RU" or "ru" => new("ru-RU"),
                     _ => new("en-US"),
                 },
             };

@@ -1,0 +1,506 @@
+{
+  "$id": "1",
+  "Settings": {
+    "$id": "2",
+    "executables": {
+      "$id": "3",
+      "Parent": {
+        "$ref": "1"
+      },
+      "Settings": {
+        "$id": "4",
+        "1": {
+          "$id": "5",
+          "Parent": {
+            "$ref": "3"
+          },
+          "Settings": {
+            "$id": "6",
+            "path": {
+              "$id": "7",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Values": {
+                "$id": "8",
+                "$values": [
+                  {
+                    "$id": "9",
+                    "Value": "casparcg.exe"
+                  }
+                ]
+              }
+            },
+            "name": {
+              "$id": "10",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Values": {
+                "$id": "11",
+                "$values": [
+                  {
+                    "$id": "12",
+                    "Value": "Server"
+                  }
+                ]
+              }
+            },
+            "args": {
+              "$id": "13",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Values": {
+                "$id": "14",
+                "$values": [
+                  {
+                    "$id": "15",
+                    "Value": ""
+                  }
+                ]
+              }
+            },
+            "autostart": {
+              "$id": "16",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Type": "b",
+              "Values": {
+                "$id": "17",
+                "$values": [
+                  {
+                    "$id": "18",
+                    "Value": "true"
+                  }
+                ]
+              }
+            },
+            "sdel": {
+              "$id": "19",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Type": "i",
+              "Values": {
+                "$id": "20",
+                "$values": [
+                  {
+                    "$id": "21",
+                    "Value": "0"
+                  }
+                ]
+              }
+            },
+            "acmd": {
+              "$id": "22",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Type": "b",
+              "Values": {
+                "$id": "23",
+                "$values": [
+                  {
+                    "$id": "24",
+                    "Value": "true"
+                  }
+                ]
+              }
+            },
+            "amin": {
+              "$id": "25",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Type": "b",
+              "Values": {
+                "$id": "26",
+                "$values": [
+                  {
+                    "$id": "27",
+                    "Value": "false"
+                  }
+                ]
+              }
+            },
+            "kocp": {
+              "$id": "28",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Type": "b",
+              "Values": {
+                "$id": "29",
+                "$values": [
+                  {
+                    "$id": "30",
+                    "Value": "false"
+                  }
+                ]
+              }
+            },
+            "cdel": {
+              "$id": "31",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Type": "i",
+              "Values": {
+                "$id": "32",
+                "$values": [
+                  {
+                    "$id": "33",
+                    "Value": "5"
+                  }
+                ]
+              }
+            },
+            "config": {
+              "$id": "34",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Values": {
+                "$id": "35",
+                "$values": [
+                  {
+                    "$id": "36",
+                    "Value": "casparcg.config"
+                  }
+                ]
+              }
+            },
+            "sprt": {
+              "$id": "37",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Type": "i",
+              "Values": {
+                "$id": "38",
+                "$values": [
+                  {
+                    "$id": "39",
+                    "Value": "8000"
+                  }
+                ]
+              }
+            },
+            "buff": {
+              "$id": "40",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Type": "i",
+              "Values": {
+                "$id": "41",
+                "$values": [
+                  {
+                    "$id": "42",
+                    "Value": "1000"
+                  }
+                ]
+              }
+            },
+            "seln": {
+              "$id": "43",
+              "Parent": {
+                "$ref": "5"
+              },
+              "Type": "b",
+              "Values": {
+                "$id": "44",
+                "$values": [
+                  {
+                    "$id": "45",
+                    "Value": "false"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "2": {
+          "$id": "46",
+          "Parent": {
+            "$ref": "3"
+          },
+          "Settings": {
+            "$id": "47",
+            "path": {
+              "$id": "48",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Values": {
+                "$id": "49",
+                "$values": [
+                  {
+                    "$id": "50",
+                    "Value": "scanner.exe"
+                  }
+                ]
+              }
+            },
+            "name": {
+              "$id": "51",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Values": {
+                "$id": "52",
+                "$values": [
+                  {
+                    "$id": "53",
+                    "Value": "Scanner"
+                  }
+                ]
+              }
+            },
+            "args": {
+              "$id": "54",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Values": {
+                "$id": "55",
+                "$values": [
+                  {
+                    "$id": "56",
+                    "Value": ""
+                  }
+                ]
+              }
+            },
+            "autostart": {
+              "$id": "57",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Type": "b",
+              "Values": {
+                "$id": "58",
+                "$values": [
+                  {
+                    "$id": "59",
+                    "Value": "true"
+                  }
+                ]
+              }
+            },
+            "sdel": {
+              "$id": "60",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Type": "i",
+              "Values": {
+                "$id": "61",
+                "$values": [
+                  {
+                    "$id": "62",
+                    "Value": "0"
+                  }
+                ]
+              }
+            },
+            "acmd": {
+              "$id": "63",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Type": "b",
+              "Values": {
+                "$id": "64",
+                "$values": [
+                  {
+                    "$id": "65",
+                    "Value": "false"
+                  }
+                ]
+              }
+            },
+            "amin": {
+              "$id": "66",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Type": "b",
+              "Values": {
+                "$id": "67",
+                "$values": [
+                  {
+                    "$id": "68",
+                    "Value": "false"
+                  }
+                ]
+              }
+            },
+            "kocp": {
+              "$id": "69",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Type": "b",
+              "Values": {
+                "$id": "70",
+                "$values": [
+                  {
+                    "$id": "71",
+                    "Value": "false"
+                  }
+                ]
+              }
+            },
+            "cdel": {
+              "$id": "72",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Type": "i",
+              "Values": {
+                "$id": "73",
+                "$values": [
+                  {
+                    "$id": "74",
+                    "Value": "5"
+                  }
+                ]
+              }
+            },
+            "config": {
+              "$id": "75",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Values": {
+                "$id": "76",
+                "$values": [
+                  {
+                    "$id": "77",
+                    "Value": "casparcg.config"
+                  }
+                ]
+              }
+            },
+            "sprt": {
+              "$id": "78",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Type": "i",
+              "Values": {
+                "$id": "79",
+                "$values": [
+                  {
+                    "$id": "80",
+                    "Value": "8000"
+                  }
+                ]
+              }
+            },
+            "buff": {
+              "$id": "81",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Type": "i",
+              "Values": {
+                "$id": "82",
+                "$values": [
+                  {
+                    "$id": "83",
+                    "Value": "1000"
+                  }
+                ]
+              }
+            },
+            "seln": {
+              "$id": "84",
+              "Parent": {
+                "$ref": "46"
+              },
+              "Type": "b",
+              "Values": {
+                "$id": "85",
+                "$values": [
+                  {
+                    "$id": "86",
+                    "Value": "false"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "webserver": {
+      "$id": "87",
+      "Parent": {
+        "$ref": "1"
+      },
+      "Settings": {
+        "$id": "88",
+        "port": {
+          "$id": "89",
+          "Parent": {
+            "$ref": "87"
+          },
+          "Type": "i",
+          "Values": {
+            "$id": "90",
+            "$values": [
+              {
+                "$id": "91",
+                "Value": "8080"
+              }
+            ]
+          }
+        },
+        "allowed-addresses": {
+          "$id": "92",
+          "Parent": {
+            "$ref": "87"
+          },
+          "Values": {
+            "$id": "93",
+            "$values": [
+              {
+                "$id": "94",
+                "Value": "localhost,127.0.0.1"
+              }
+            ]
+          }
+        },
+        "autostart": {
+          "$id": "95",
+          "Parent": {
+            "$ref": "87"
+          },
+          "Type": "b",
+          "Values": {
+            "$id": "96",
+            "$values": [
+              {
+                "$id": "97",
+                "Value": "false"
+              }
+            ]
+          }
+        }
+      },
+      "Values": {
+        "$id": "98",
+        "$values": [
+          {
+            "$id": "99",
+            "Value": ""
+          }
+        ]
+      }
+    }
+  }
+}

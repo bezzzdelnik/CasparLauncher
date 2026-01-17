@@ -95,6 +95,9 @@
                 <MenuItem Header="{helpers:Localization MenuBarViewCropLines}" IsCheckable="True" IsChecked="{Binding Path=CropConsole, Mode=TwoWay}" Checked="CropConsoleLines_Checked" Unchecked="CropConsoleLines_Checked"/>
                 <MenuItem Header="{helpers:Localization MenuBarViewStylizeConsole}" IsCheckable="True" IsChecked="{Binding Path=StylizeConsole, Mode=TwoWay}"/>
             </MenuItem>
+            <MenuItem Header="{helpers:Localization MenuBarWebServerMenuHeader}">
+                <MenuItem Header="{helpers:Localization MenuBarWebServerSettings}" Click="WebServerSettings_Click"/>
+            </MenuItem>
             <MenuItem Header="{helpers:Localization MenuBarHelpMenuHeader}">
                 <MenuItem Header="{helpers:Localization MenuBarHelpReportIssue}" Click="ReportIssue_Click"/>
                 <MenuItem Header="{helpers:Localization MenuBarHelpCasparCGProject}" Click="CasparCGProject_Click"/>

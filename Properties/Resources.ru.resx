@@ -118,30 +118,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutWindowNotice" xml:space="preserve">
-    <value>本程序为自由软件：您可以依据自由软件基金会发布的 GNU 通用公共许可证第3版或（根据您的选择）更新版本的条款，对本程序进行再发布和/或修改。
+    <value>Эта программа является свободным программным обеспечением: вы можете распространять её и/или изменять на условиях Стандартной общественной лицензии GNU, опубликованной Фондом свободного программного обеспечения, версии 3 этой лицензии или (на ваше усмотрение) любой более поздней версии.
 
-本程序的发布是希望它有用，但不提供任何担保；甚至不包括对适销性或特定用途适用性的暗示担保。详情请参阅 GNU 通用公共许可证。
+Эта программа распространяется в надежде, что она будет полезной, но БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ; даже без подразумеваемой гарантии КОММЕРЧЕСКОЙ ЦЕННОСТИ или ПРИГОДНОСТИ ДЛЯ КОНКРЕТНОЙ ЦЕЛИ. Подробнее см. в Стандартной общественной лицензии GNU.
 
-您应该已经收到了一份 GNU 通用公共许可证的副本。如果没有，请参阅
-&lt;https://www.gnu.org/licenses/&gt;。</value>
+Вы должны были получить копию Стандартной общественной лицензии GNU вместе с этой программой. Если нет, см.
+&lt;https://www.gnu.org/licenses/&gt;.</value>
   </data>
   <data name="AboutWindowTagline" xml:space="preserve">
-    <value>CasparCG 服务器前端应用程序</value>
+    <value>Фронтенд-приложение для сервера CasparCG</value>
   </data>
   <data name="AboutWindowTitle" xml:space="preserve">
-    <value>关于</value>
+    <value>О программе</value>
   </data>
   <data name="AboutWindowVersion" xml:space="preserve">
-    <value>版本 {0}</value>
+    <value>Версия {0}</value>
   </data>
   <data name="AppTitle" xml:space="preserve">
-    <value>服务器启动器</value>
+    <value>Запуск сервера</value>
   </data>
   <data name="ArtnetConsumer" xml:space="preserve">
-    <value>ArtNet 输出</value>
+    <value>Выход ArtNet</value>
   </data>
   <data name="ArtnetFixtureType_DIMMER" xml:space="preserve">
-    <value>Dimmer</value>
+    <value>Диммер</value>
   </data>
   <data name="ArtnetFixtureType_RGB" xml:space="preserve">
     <value>RGB</value>
@@ -150,722 +150,722 @@
     <value>RGBW</value>
   </data>
   <data name="BluefishConsumer" xml:space="preserve">
-    <value>Bluefish 输出</value>
+    <value>Выход Bluefish</value>
   </data>
   <data name="BluefishKeyerAudio_Input" xml:space="preserve">
-    <value>SDI 视频输入</value>
+    <value>Видеовход SDI</value>
   </data>
   <data name="BluefishKeyerAudio_Output" xml:space="preserve">
-    <value>视频输出通道</value>
+    <value>Канал видеовыхода</value>
   </data>
   <data name="BluefishKeyer_Disabled" xml:space="preserve">
-    <value>禁用</value>
+    <value>Отключено</value>
   </data>
   <data name="BluefishKeyer_External" xml:space="preserve">
-    <value>外部</value>
+    <value>Внешний</value>
   </data>
   <data name="BluefishKeyer_Internal" xml:space="preserve">
-    <value>内部</value>
+    <value>Внутренний</value>
   </data>
   <data name="BluefishUhdMode_Auto" xml:space="preserve">
-    <value>自动</value>
+    <value>Авто</value>
   </data>
   <data name="BluefishUhdMode_DisableBVC" xml:space="preserve">
-    <value>禁用 BVC-Multi_Link</value>
+    <value>Отключить BVC-Multi_Link</value>
   </data>
   <data name="BluefishUhdMode_Force2SI" xml:space="preserve">
-    <value>强制 2SI 输出</value>
+    <value>Принудительный выход 2SI</value>
   </data>
   <data name="BluefishUhdMode_ForceSQ" xml:space="preserve">
-    <value>强制 SQ 输出</value>
+    <value>Принудительный выход SQ</value>
   </data>
   <data name="BrowseForFileButton" xml:space="preserve">
-    <value>浏览...</value>
+    <value>Обзор...</value>
   </data>
   <data name="BrowseForPathButton" xml:space="preserve">
-    <value>选择文件夹...</value>
+    <value>Выбрать папку...</value>
   </data>
   <data name="BrowseForPathDialogCaption" xml:space="preserve">
-    <value>选择 '{0}' 文件夹的路径</value>
+    <value>Выбрать путь для папки '{0}'</value>
   </data>
   <data name="ClosePromptCaption" xml:space="preserve">
-    <value>退出应用</value>
+    <value>Закрыть приложение</value>
   </data>
   <data name="ClosePromptMessage" xml:space="preserve">
-    <value>此应用负责保持所有服务器组件运行。
-关闭它将终止所有服务器服务。
-是否要继续？</value>
+    <value>Это приложение поддерживает работу всех серверных компонентов.
+Закрытие его приведёт к остановке всех серверных служб.
+Вы хотите продолжить?</value>
   </data>
   <data name="ConfigBufferLines" xml:space="preserve">
-    <value>控制台缓冲区</value>
+    <value>Буфер консоли</value>
   </data>
   <data name="MenuBarViewDarkMode" xml:space="preserve">
-    <value>深色模式</value>
+    <value>Тёмный режим</value>
   </data>
   <data name="ConfigFileDialogFilterDescription" xml:space="preserve">
-    <value>配置文件</value>
+    <value>Файлы конфигурации</value>
   </data>
   <data name="ConfigFileText" xml:space="preserve">
-    <value>配置文件</value>
+    <value>Файл конфигурации</value>
   </data>
   <data name="MenuBarHelpAbout" xml:space="preserve">
-    <value>关于...</value>
+    <value>О программе...</value>
   </data>
   <data name="MenuBarHelpCasparCGProject" xml:space="preserve">
-    <value>CasparCG 项目</value>
+    <value>Проект CasparCG</value>
   </data>
   <data name="MenuBarHelpMenuHeader" xml:space="preserve">
-    <value>帮助</value>
+    <value>Справка</value>
   </data>
   <data name="MenuBarHelpReportIssue" xml:space="preserve">
-    <value>报告问题</value>
+    <value>Сообщить о проблеме</value>
   </data>
   <data name="MenuBarOptionsNotifications" xml:space="preserve">
-    <value>通知</value>
+    <value>Уведомления</value>
   </data>
   <data name="MenuBarOptionsNotificationsErrors" xml:space="preserve">
-    <value>进程错误</value>
+    <value>Ошибки процессов</value>
   </data>
   <data name="MenuBarOptionsNotificationsStarted" xml:space="preserve">
-    <value>进程已启动</value>
+    <value>Процесс запущен</value>
   </data>
   <data name="MenuBarOptionsNotificationsStopped" xml:space="preserve">
-    <value>进程已停止</value>
+    <value>Процесс остановлен</value>
   </data>
   <data name="MenuBarOptionsOpenAtLogin" xml:space="preserve">
-    <value>在登录时启动</value>
+    <value>Запускать при входе в систему</value>
   </data>
   <data name="ConfigSupressEmptyLines" xml:space="preserve">
-    <value>忽略控制台空行</value>
+    <value>Игнорировать пустые строки консоли</value>
   </data>
   <data name="ConfigTabAboutGb" xml:space="preserve">
-    <value>关于</value>
+    <value>О программе</value>
   </data>
   <data name="ConfigTabAboutProjectDescription" xml:space="preserve">
-    <value>CasparCG Server 是一款适用于 Windows 和 Linux 的软件，用于将专业图形、音频和视频作为基于图层的实时合成器输出到多个输出设备。自 2006 年以来，它一直在 24/7 广播生产中使用，而且最棒的是，它是免费的。被欧洲大多数广播公司使用。
-更多信息请访问：</value>
+    <value>CasparCG Server — это программное обеспечение для Windows и Linux, используемое для воспроизведения профессиональной графики, аудио и видео на нескольких выходах как композитор в реальном времени на основе слоёв. Используется в круглосуточном телевещании с 2006 года. И самое главное — это бесплатно. Используется большинством телевещательных компаний в Европе.
+Больше информации на:</value>
   </data>
   <data name="ConfigTabAboutProjectName" xml:space="preserve">
-    <value>CasparCG 项目</value>
+    <value>Проект CasparCG</value>
   </data>
   <data name="ConfigTabEditConfigFilesDesc" xml:space="preserve">
-    <value>要编辑 'casparcg.config' 之外的文件，请在点击"编辑文件"按钮时按住 Shift 键</value>
+    <value>Чтобы отредактировать файл, отличный от 'casparcg.config', удерживайте клавишу Shift при нажатии кнопки 'Редактировать файл'</value>
   </data>
   <data name="ConfigTabExecGbHeader" xml:space="preserve">
-    <value>可执行文件</value>
+    <value>Исполняемые файлы</value>
   </data>
   <data name="MenuBarOptionsLanguage" xml:space="preserve">
-    <value>语言</value>
+    <value>Язык</value>
   </data>
   <data name="ConfigTabOptionsCbHead" xml:space="preserve">
-    <value>选项</value>
+    <value>Параметры</value>
   </data>
   <data name="ConfigTabServerConfigHeader" xml:space="preserve">
-    <value>服务器配置</value>
+    <value>Конфигурация сервера</value>
   </data>
   <data name="MenuBarViewCropLines" xml:space="preserve">
-    <value>裁剪控制台行</value>
+    <value>Обрезать строки консоли</value>
   </data>
   <data name="MenuBarViewMenuHeader" xml:space="preserve">
-    <value>视图</value>
+    <value>Вид</value>
   </data>
   <data name="MenuBarViewStylizeConsole" xml:space="preserve">
-    <value>美化控制台</value>
+    <value>Стилизовать консоль</value>
   </data>
   <data name="ConfigWindowChannelsAnAddFixture" xml:space="preserve">
-    <value>添加设备</value>
+    <value>Добавить прибор</value>
   </data>
   <data name="ConfigWindowChannelsAnFixtureChannels" xml:space="preserve">
-    <value>通道</value>
+    <value>Каналы</value>
   </data>
   <data name="ConfigWindowChannelsAnFixtureCount" xml:space="preserve">
-    <value>设备数量</value>
+    <value>Количество приборов</value>
   </data>
   <data name="ConfigWindowChannelsAnFixtureHeight" xml:space="preserve">
-    <value>高度</value>
+    <value>Высота</value>
   </data>
   <data name="ConfigWindowChannelsAnFixtureRotation" xml:space="preserve">
-    <value>旋转</value>
+    <value>Поворот</value>
   </data>
   <data name="ConfigWindowChannelsAnFixtures" xml:space="preserve">
-    <value>设备</value>
+    <value>Приборы</value>
   </data>
   <data name="ConfigWindowChannelsAnFixtureStart" xml:space="preserve">
-    <value>起始地址</value>
+    <value>Начальный адрес</value>
   </data>
   <data name="ConfigWindowChannelsAnFixtureType" xml:space="preserve">
-    <value>类型</value>
+    <value>Тип</value>
   </data>
   <data name="ConfigWindowChannelsAnFixtureWidth" xml:space="preserve">
-    <value>宽度</value>
+    <value>Ширина</value>
   </data>
   <data name="ConfigWindowChannelsAnFixtureX" xml:space="preserve">
-    <value>X 位置</value>
+    <value>Позиция X</value>
   </data>
   <data name="ConfigWindowChannelsAnFixtureY" xml:space="preserve">
-    <value>Y 位置</value>
+    <value>Позиция Y</value>
   </data>
   <data name="ConfigWindowChannelsAnHost" xml:space="preserve">
-    <value>主机</value>
+    <value>Хост</value>
   </data>
   <data name="ConfigWindowChannelsAnPort" xml:space="preserve">
-    <value>端口</value>
+    <value>Порт</value>
   </data>
   <data name="ConfigWindowChannelsAnRate" xml:space="preserve">
-    <value>刷新率</value>
+    <value>Частота обновления</value>
   </data>
   <data name="ConfigWindowChannelsAnUniverse" xml:space="preserve">
-    <value>Universe</value>
+    <value>Вселенная</value>
   </data>
   <data name="ConfigWindowChannelsBfDevice" xml:space="preserve">
-    <value>设备</value>
+    <value>Устройство</value>
   </data>
   <data name="ConfigWindowChannelsBfEmbedAudio" xml:space="preserve">
-    <value>嵌入音频</value>
+    <value>Встроенный звук</value>
   </data>
   <data name="ConfigWindowChannelsBfKeyer" xml:space="preserve">
-    <value>键控器</value>
+    <value>Кейер</value>
   </data>
   <data name="ConfigWindowChannelsBfKeyerAudio" xml:space="preserve">
-    <value>内部键控器音频源</value>
+    <value>Внутренний источник звука кейера</value>
   </data>
   <data name="ConfigWindowChannelsBfSdiStream" xml:space="preserve">
-    <value>SDI 流</value>
+    <value>Поток SDI</value>
   </data>
   <data name="ConfigWindowChannelsBfUhdMode" xml:space="preserve">
-    <value>UHD 模式</value>
+    <value>Режим UHD</value>
   </data>
   <data name="ConfigWindowChannelsBfWatchdog" xml:space="preserve">
-    <value>看门狗</value>
+    <value>Сторожевой таймер</value>
   </data>
   <data name="ConfigWindowChannelsChannelConfigGbHeader" xml:space="preserve">
-    <value>通道设置</value>
+    <value>Настройки канала</value>
   </data>
   <data name="ConfigWindowChannelsChannelListItemDisplay" xml:space="preserve">
-    <value>通道 {0}</value>
+    <value>Канал {0}</value>
   </data>
   <data name="ConfigWindowChannelsChannelProducerLayer" xml:space="preserve">
-    <value>图层</value>
+    <value>Слой</value>
   </data>
   <data name="ConfigWindowChannelsChannelProducerMedia" xml:space="preserve">
-    <value>媒体</value>
+    <value>Медиа</value>
   </data>
   <data name="ConfigWindowChannelsChannelProducers" xml:space="preserve">
-    <value>生产者</value>
+    <value>Производители</value>
   </data>
   <data name="ConfigWindowChannelsChannels" xml:space="preserve">
-    <value>通道</value>
+    <value>Каналы</value>
   </data>
   <data name="ConfigWindowChannelsChannelVideoMode" xml:space="preserve">
-    <value>视频模式</value>
+    <value>Видеорежим</value>
   </data>
   <data name="ConfigWindowChannelsConsumerChannelVideoMode" xml:space="preserve">
-    <value>通道视频模式</value>
+    <value>Видеорежим канала</value>
   </data>
   <data name="ConfigWindowChannelsConsumerConfigGbHeader" xml:space="preserve">
-    <value>消费者设置</value>
+    <value>Настройки выхода</value>
   </data>
   <data name="ConfigWindowChannelsConsumers" xml:space="preserve">
-    <value>消费者</value>
+    <value>Выходы</value>
   </data>
   <data name="ConfigWindowChannelsConsumerSubregionDestX" xml:space="preserve">
-    <value>目标 X</value>
+    <value>Назначение X</value>
   </data>
   <data name="ConfigWindowChannelsConsumerSubregionDestY" xml:space="preserve">
-    <value>目标 Y</value>
+    <value>Назначение Y</value>
   </data>
   <data name="ConfigWindowChannelsConsumerSubregionEnable" xml:space="preserve">
-    <value>启用子区域</value>
+    <value>Включить подобласть</value>
   </data>
   <data name="ConfigWindowChannelsConsumerSubregionHeight" xml:space="preserve">
-    <value>高度</value>
+    <value>Высота</value>
   </data>
   <data name="ConfigWindowChannelsConsumerSubregionSrcX" xml:space="preserve">
-    <value>源 X</value>
+    <value>Источник X</value>
   </data>
   <data name="ConfigWindowChannelsConsumerSubregionSrcY" xml:space="preserve">
-    <value>源 Y</value>
+    <value>Источник Y</value>
   </data>
   <data name="ConfigWindowChannelsConsumerSubregionWidth" xml:space="preserve">
-    <value>宽度</value>
+    <value>Ширина</value>
   </data>
   <data name="ConfigWindowChannelsConsumerVideoMode" xml:space="preserve">
-    <value>视频模式</value>
+    <value>Видеорежим</value>
   </data>
   <data name="ConfigWindowChannelsDlAddPort" xml:space="preserve">
-    <value>添加端口</value>
+    <value>Добавить порт</value>
   </data>
   <data name="ConfigWindowChannelsDlBuffer" xml:space="preserve">
-    <value>缓冲深度</value>
+    <value>Глубина буфера</value>
   </data>
   <data name="ConfigWindowChannelsDlDevice" xml:space="preserve">
-    <value>设备</value>
+    <value>Устройство</value>
   </data>
   <data name="ConfigWindowChannelsDlEmbedAudio" xml:space="preserve">
-    <value>嵌入音频</value>
+    <value>Встроенный звук</value>
   </data>
   <data name="ConfigWindowChannelsDlKeyDevice" xml:space="preserve">
-    <value>键设备</value>
+    <value>Устройство кейера</value>
   </data>
   <data name="ConfigWindowChannelsDlKeyer" xml:space="preserve">
-    <value>键控器</value>
+    <value>Кейер</value>
   </data>
   <data name="ConfigWindowChannelsDlKeyOnly" xml:space="preserve">
-    <value>仅键</value>
+    <value>Только кей</value>
   </data>
   <data name="ConfigWindowChannelsDlLatency" xml:space="preserve">
-    <value>延迟</value>
+    <value>Задержка</value>
   </data>
   <data name="ConfigWindowChannelsDlPortDevice" xml:space="preserve">
-    <value>设备</value>
+    <value>Устройство</value>
   </data>
   <data name="ConfigWindowChannelsDlPortKeyOnly" xml:space="preserve">
-    <value>仅键</value>
+    <value>Только кей</value>
   </data>
   <data name="ConfigWindowChannelsDlPorts" xml:space="preserve">
-    <value>额外同步端口</value>
+    <value>Дополнительные синхронизированные порты</value>
   </data>
   <data name="ConfigWindowChannelsDlWaitForReference" xml:space="preserve">
-    <value>等待 Reference</value>
+    <value>Ожидать опорного сигнала</value>
   </data>
   <data name="ConfigWindowChannelsDlWaitForReferenceDuration" xml:space="preserve">
-    <value>等待 Reference 时长</value>
+    <value>Длительность ожидания опорного сигнала</value>
   </data>
   <data name="ConfigWindowChannelsDlWaitForReferenceDurationDetail" xml:space="preserve">
-    <value>（以秒为单位）</value>
+    <value>(время в секундах)</value>
   </data>
   <data name="ConfigWindowChannelsFfArgs" xml:space="preserve">
-    <value>参数</value>
+    <value>Аргументы</value>
   </data>
   <data name="ConfigWindowChannelsFfPath" xml:space="preserve">
-    <value>路径</value>
+    <value>Путь</value>
   </data>
   <data name="ConfigWindowChannelsHeader" xml:space="preserve">
-    <value>通道</value>
+    <value>Каналы</value>
   </data>
   <data name="ConfigWindowChannelsNiNoOptions" xml:space="preserve">
-    <value>此消费者没有设置选项</value>
+    <value>У этого выхода нет настроек</value>
   </data>
   <data name="ConfigWindowChannelsNnAllowFields" xml:space="preserve">
-    <value>允许场信息（Fields）</value>
+    <value>Разрешить поля</value>
   </data>
   <data name="ConfigWindowChannelsNnName" xml:space="preserve">
-    <value>名称</value>
+    <value>Имя</value>
   </data>
   <data name="ConfigWindowChannelsSaChannelLayout" xml:space="preserve">
-    <value>通道布局</value>
+    <value>Макет канала</value>
   </data>
   <data name="ConfigWindowChannelsSaLatency" xml:space="preserve">
-    <value>延迟</value>
+    <value>Задержка</value>
   </data>
   <data name="ConfigWindowChannelsScAlwaysOn" xml:space="preserve">
-    <value>始终置顶</value>
+    <value>Всегда сверху</value>
   </data>
   <data name="ConfigWindowChannelsScAspect" xml:space="preserve">
-    <value>宽高比</value>
+    <value>Соотношение сторон</value>
   </data>
   <data name="ConfigWindowChannelsScBorderless" xml:space="preserve">
-    <value>无边框</value>
+    <value>Без рамки</value>
   </data>
   <data name="ConfigWindowChannelsScColourSpace" xml:space="preserve">
-    <value>色彩空间</value>
+    <value>Цветовое пространство</value>
   </data>
   <data name="ConfigWindowChannelsScDevice" xml:space="preserve">
-    <value>设备</value>
+    <value>Устройство</value>
   </data>
   <data name="ConfigWindowChannelsScHeight" xml:space="preserve">
-    <value>高度</value>
+    <value>Высота</value>
   </data>
   <data name="ConfigWindowChannelsScInteractive" xml:space="preserve">
-    <value>交互式</value>
+    <value>Интерактивный</value>
   </data>
   <data name="ConfigWindowChannelsScKeyOnly" xml:space="preserve">
-    <value>仅键</value>
+    <value>Только кей</value>
   </data>
   <data name="ConfigWindowChannelsScName" xml:space="preserve">
-    <value>名称</value>
+    <value>Имя</value>
   </data>
   <data name="ConfigWindowChannelsScSbsKey" xml:space="preserve">
-    <value>并排键</value>
+    <value>Кей бок о бок</value>
   </data>
   <data name="ConfigWindowChannelsScStretch" xml:space="preserve">
-    <value>拉伸</value>
+    <value>Растяжение</value>
   </data>
   <data name="ConfigWindowChannelsScVsync" xml:space="preserve">
-    <value>垂直同步</value>
+    <value>Vsync</value>
   </data>
   <data name="ConfigWindowChannelsScWidth" xml:space="preserve">
-    <value>宽度</value>
+    <value>Ширина</value>
   </data>
   <data name="ConfigWindowChannelsScWindowed" xml:space="preserve">
-    <value>窗口化</value>
+    <value>В окне</value>
   </data>
   <data name="ConfigWindowChannelsScX" xml:space="preserve">
-    <value>X 位置</value>
+    <value>Позиция X</value>
   </data>
   <data name="ConfigWindowChannelsScY" xml:space="preserve">
-    <value>Y 位置</value>
+    <value>Позиция Y</value>
   </data>
   <data name="ConfigWindowOptionsTabAmcpGb" xml:space="preserve">
     <value>AMCP</value>
   </data>
   <data name="ConfigWindowOptionsTabAmcpMediaHost" xml:space="preserve">
-    <value>媒体扫描器主机</value>
+    <value>Хост сканера медиа</value>
   </data>
   <data name="ConfigWindowOptionsTabAmcpMediaPort" xml:space="preserve">
-    <value>媒体扫描器端口</value>
+    <value>Порт сканера медиа</value>
   </data>
   <data name="ConfigWindowOptionsTabAmcpPort" xml:space="preserve">
-    <value>端口</value>
+    <value>Порт</value>
   </data>
   <data name="ConfigWindowOptionsTabAudioDefaultDevice" xml:space="preserve">
-    <value>默认输出设备</value>
+    <value>Устройство вывода по умолчанию</value>
   </data>
   <data name="ConfigWindowOptionsTabAudioGb" xml:space="preserve">
-    <value>音频</value>
+    <value>Звук</value>
   </data>
   <data name="ConfigWindowOptionsTabFfmpegDeinterlace" xml:space="preserve">
-    <value>反交错</value>
+    <value>Устранение чересстрочности</value>
   </data>
   <data name="ConfigWindowOptionsTabFfmpegGb" xml:space="preserve">
     <value>FFmpeg</value>
   </data>
   <data name="ConfigWindowOptionsTabFfmpegThreads" xml:space="preserve">
-    <value>CPU 线程数</value>
+    <value>Потоки CPU</value>
   </data>
   <data name="ConfigWindowOptionsTabFlashBuffer" xml:space="preserve">
-    <value>缓冲深度</value>
+    <value>Глубина буфера</value>
   </data>
   <data name="ConfigWindowOptionsTabFlashEnableProducer" xml:space="preserve">
-    <value>启用生产者</value>
+    <value>Включить производитель</value>
   </data>
   <data name="ConfigWindowOptionsTabFlashGb" xml:space="preserve">
     <value>Flash</value>
   </data>
   <data name="ConfigWindowOptionsTabHeader" xml:space="preserve">
-    <value>服务器选项</value>
+    <value>Параметры сервера</value>
   </data>
   <data name="ConfigWindowOptionsTabHtmlAngleBackend" xml:space="preserve">
-    <value>ANGLE 图形后端</value>
+    <value>Графический бэкенд ANGLE</value>
   </data>
   <data name="ConfigWindowOptionsTabHtmlDebugPort" xml:space="preserve">
-    <value>调试端口</value>
+    <value>Порт отладки</value>
   </data>
   <data name="ConfigWindowOptionsTabHtmlEnableGpu" xml:space="preserve">
-    <value>启用 GPU</value>
+    <value>Включить GPU</value>
   </data>
   <data name="ConfigWindowOptionsTabHtmlGb" xml:space="preserve">
     <value>HTML</value>
   </data>
   <data name="ConfigWindowOptionsTabLogDisableColumnAlignment" xml:space="preserve">
-    <value>禁用列对齐</value>
+    <value>Отключить выравнивание столбцов</value>
   </data>
   <data name="ConfigWindowOptionsTabLogDisableColumnAlignmentNotice" xml:space="preserve">
-    <value>此选项仅为兼容性目的而支持。它不会影响此启动器控制台的行为。</value>
+    <value>Эта опция поддерживается для целей совместимости. Она не влияет на поведение в консоли этого лаунчера.</value>
   </data>
   <data name="ConfigWindowOptionsTabLogGb" xml:space="preserve">
-    <value>日志</value>
+    <value>Журнал</value>
   </data>
   <data name="ConfigWindowOptionsTabLogLogLevel" xml:space="preserve">
-    <value>级别</value>
+    <value>Уровень</value>
   </data>
   <data name="ConfigWindowOptionsTabLogLogToFile" xml:space="preserve">
-    <value>启用文件日志记录</value>
+    <value>Включить запись в файл</value>
   </data>
   <data name="ConfigWindowOptionsTabNdiAutoload" xml:space="preserve">
-    <value>自动加载</value>
+    <value>Автозагрузка</value>
   </data>
   <data name="ConfigWindowOptionsTabNdiGb" xml:space="preserve">
     <value>NDI</value>
   </data>
   <data name="ConfigWindowOptionsTabOscAmcpDisable" xml:space="preserve">
-    <value>禁用发送到 AMCP 客户端</value>
+    <value>Отключить отправку клиентам AMCP</value>
   </data>
   <data name="ConfigWindowOptionsTabOscDefaultPort" xml:space="preserve">
-    <value>默认端口</value>
+    <value>Порт по умолчанию</value>
   </data>
   <data name="ConfigWindowOptionsTabOscGb" xml:space="preserve">
     <value>OSC</value>
   </data>
   <data name="ConfigWindowOptionsTabOscPredClientAddress" xml:space="preserve">
-    <value>地址</value>
+    <value>Адрес</value>
   </data>
   <data name="ConfigWindowOptionsTabOscPredClientPort" xml:space="preserve">
-    <value>端口</value>
+    <value>Порт</value>
   </data>
   <data name="ConfigWindowOptionsTabOscPredefinedClients" xml:space="preserve">
-    <value>预定义客户端</value>
+    <value>Предопределённые клиенты</value>
   </data>
   <data name="ConfigWindowOptionsTabPassGb" xml:space="preserve">
-    <value>密码（明文）</value>
+    <value>Очистить парольную фразу</value>
   </data>
   <data name="ConfigWindowOptionsTabPassValue" xml:space="preserve">
-    <value>值</value>
+    <value>Значение</value>
   </data>
   <data name="ConfigWindowOptionsTabPathsDataPath" xml:space="preserve">
-    <value>数据路径</value>
+    <value>Путь данных</value>
   </data>
   <data name="ConfigWindowOptionsTabPathsFontPath" xml:space="preserve">
-    <value>字体路径</value>
+    <value>Путь шрифтов</value>
   </data>
   <data name="ConfigWindowOptionsTabPathsGb" xml:space="preserve">
-    <value>路径</value>
+    <value>Пути</value>
   </data>
   <data name="ConfigWindowOptionsTabPathsLogPath" xml:space="preserve">
-    <value>日志路径</value>
+    <value>Путь журналов</value>
   </data>
   <data name="ConfigWindowOptionsTabPathsMediaPath" xml:space="preserve">
-    <value>媒体路径</value>
+    <value>Путь медиа</value>
   </data>
   <data name="ConfigWindowOptionsTabPathsTemplatePath" xml:space="preserve">
-    <value>模板路径</value>
+    <value>Путь шаблонов</value>
   </data>
   <data name="ConfigWindowSaveButton" xml:space="preserve">
-    <value>保存</value>
+    <value>Сохранить</value>
   </data>
   <data name="ConfigWindowStatusMessageSaveError" xml:space="preserve">
-    <value>发生未知错误</value>
+    <value>Произошла неизвестная ошибка</value>
   </data>
   <data name="ConfigWindowStatusMessageSaveIOError" xml:space="preserve">
-    <value>写入文件时出错</value>
+    <value>Ошибка записи в файл</value>
   </data>
   <data name="ConfigWindowStatusMessageSaveSuccess" xml:space="preserve">
-    <value>文件已成功保存</value>
+    <value>Файл успешно сохранён</value>
   </data>
   <data name="ConfigWindowTitle" xml:space="preserve">
-    <value>编辑服务器配置</value>
+    <value>Редактировать конфигурацию сервера</value>
   </data>
   <data name="ConfigWindowVideoModesCadence" xml:space="preserve">
-    <value>Cadence</value>
+    <value>Каденция</value>
   </data>
   <data name="ConfigWindowVideoModesCustomVideoModeGb" xml:space="preserve">
-    <value>自定义视频模式</value>
+    <value>Пользовательский видеорежим</value>
   </data>
   <data name="ConfigWindowVideoModesCustomVideoModes" xml:space="preserve">
-    <value>自定义视频模式</value>
+    <value>Пользовательские видеорежимы</value>
   </data>
   <data name="ConfigWindowVideoModesDuration" xml:space="preserve">
-    <value>时长</value>
+    <value>Длительность</value>
   </data>
   <data name="ConfigWindowVideoModesHeight" xml:space="preserve">
-    <value>高度</value>
+    <value>Высота</value>
   </data>
   <data name="ConfigWindowVideoModesId" xml:space="preserve">
-    <value>视频模式 ID</value>
+    <value>ID видеорежима</value>
   </data>
   <data name="ConfigWindowVideoModesNewModeId" xml:space="preserve">
-    <value>新视频模式</value>
+    <value>НовыйВидеоРежим</value>
   </data>
   <data name="ConfigWindowVideoModesTab" xml:space="preserve">
-    <value>视频模式</value>
+    <value>Видеорежимы</value>
   </data>
   <data name="ConfigWindowVideoModesTimeScale" xml:space="preserve">
-    <value>时间比例</value>
+    <value>Временная шкала</value>
   </data>
   <data name="ConfigWindowVideoModesWidth" xml:space="preserve">
-    <value>宽度</value>
+    <value>Ширина</value>
   </data>
   <data name="ContextMenuExecConfigItemHeader" xml:space="preserve">
-    <value>配置</value>
+    <value>Конфигурация</value>
   </data>
   <data name="ContextMenuExecDiagItemHeader" xml:space="preserve">
-    <value>打开诊断窗口</value>
+    <value>Открыть окно диагностики</value>
   </data>
   <data name="ContextMenuExecRestartItemHeader" xml:space="preserve">
-    <value>重启</value>
+    <value>Перезапустить</value>
   </data>
   <data name="ContextMenuExecStartItemHeader" xml:space="preserve">
-    <value>启动</value>
+    <value>Запустить</value>
   </data>
   <data name="ContextMenuExecStopItemHeader" xml:space="preserve">
-    <value>停止</value>
+    <value>Остановить</value>
   </data>
   <data name="ContextMenuExitItemHeader" xml:space="preserve">
-    <value>退出</value>
+    <value>Выход</value>
   </data>
   <data name="ContextMenuRebuildMediaDbItemHeader" xml:space="preserve">
-    <value>重建媒体数据库</value>
+    <value>Перестроить базу данных медиа</value>
   </data>
   <data name="ContextMenuRestartAllHeader" xml:space="preserve">
-    <value>全部重启</value>
+    <value>Перезапустить все</value>
   </data>
   <data name="ContextMenuStartAllHeader" xml:space="preserve">
-    <value>全部启动</value>
+    <value>Запустить все</value>
   </data>
   <data name="ContextMenuStopAllHeader" xml:space="preserve">
-    <value>全部停止</value>
+    <value>Остановить все</value>
   </data>
   <data name="CreateConfigFileErrorCaption" xml:space="preserve">
-    <value>错误</value>
+    <value>Ошибка</value>
   </data>
   <data name="CreateConfigFileIOError" xml:space="preserve">
-    <value>创建配置文件时出错。
-无法将文件写入磁盘。</value>
+    <value>Ошибка создания файла конфигурации.
+Не удалось записать файл на диск.</value>
   </data>
   <data name="DecklinkConsumer" xml:space="preserve">
-    <value>Decklink 输出</value>
+    <value>Выход Decklink</value>
   </data>
   <data name="DecklinkKeyer_Default" xml:space="preserve">
-    <value>默认</value>
+    <value>По умолчанию</value>
   </data>
   <data name="DecklinkKeyer_External" xml:space="preserve">
-    <value>外部</value>
+    <value>Внешний</value>
   </data>
   <data name="DecklinkKeyer_ExternalSeparateDevice" xml:space="preserve">
-    <value>外部（独立设备）</value>
+    <value>Внешний (отдельное устройство)</value>
   </data>
   <data name="DecklinkKeyer_Internal" xml:space="preserve">
-    <value>内部</value>
+    <value>Внутренний</value>
   </data>
   <data name="DecklinkLatency_Default" xml:space="preserve">
-    <value>默认</value>
+    <value>По умолчанию</value>
   </data>
   <data name="DecklinkLatency_Low" xml:space="preserve">
-    <value>低</value>
+    <value>Низкая</value>
   </data>
   <data name="DecklinkLatency_Normal" xml:space="preserve">
-    <value>正常</value>
+    <value>Обычная</value>
   </data>
   <data name="DecklinkWaitForReference_Auto" xml:space="preserve">
-    <value>自动</value>
+    <value>Авто</value>
   </data>
   <data name="DecklinkWaitForReference_Disable" xml:space="preserve">
-    <value>禁用</value>
+    <value>Отключить</value>
   </data>
   <data name="DecklinkWaitForReference_Enable" xml:space="preserve">
-    <value>启用</value>
+    <value>Включить</value>
   </data>
   <data name="DeleteConfigFileError" xml:space="preserve">
-    <value>删除配置文件时出错。
-未知错误。</value>
+    <value>Ошибка удаления файла конфигурации.
+Неизвестная ошибка.</value>
   </data>
   <data name="DeleteConfigFileErrorCaption" xml:space="preserve">
-    <value>错误</value>
+    <value>Ошибка</value>
   </data>
   <data name="DeleteConfigFileIOError" xml:space="preserve">
-    <value>删除配置文件时出错。
-写入错误。</value>
+    <value>Ошибка удаления файла конфигурации.
+Ошибка записи.</value>
   </data>
   <data name="DeleteExecutablePromptCaption" xml:space="preserve">
-    <value>删除可执行文件</value>
+    <value>Удалить исполняемый файл</value>
   </data>
   <data name="DeleteExecutablePromptMessage" xml:space="preserve">
-    <value>您确定要删除此可执行文件吗？（此操作无法撤销）</value>
+    <value>Вы действительно хотите удалить исполняемый файл? (это действие нельзя отменить)</value>
   </data>
   <data name="ExecutableConfigWindowArgs" xml:space="preserve">
-    <value>参数</value>
+    <value>Аргументы</value>
   </data>
   <data name="ExecutableConfigWindowAuto" xml:space="preserve">
-    <value>自动启动</value>
+    <value>Автозапуск</value>
   </data>
   <data name="ExecutableConfigWindowAutoDesc" xml:space="preserve">
-    <value>启动时自动运行</value>
+    <value>Запускать автоматически при старте</value>
   </data>
   <data name="ExecutableConfigWindowCommands" xml:space="preserve">
-    <value>启动命令</value>
+    <value>Команды запуска</value>
   </data>
   <data name="ExecutableConfigWindowCommandsDelay" xml:space="preserve">
-    <value>命令间延迟</value>
+    <value>Задержка между командами</value>
   </data>
   <data name="ExecutableConfigWindowCommandsDelayDesc" xml:space="preserve">
-    <value>每个启动命令之间的等待时间（毫秒）</value>
+    <value>Время ожидания между каждой командой запуска (миллисекунды)</value>
   </data>
   <data name="ExecutableConfigWindowCommandsDgHeader" xml:space="preserve">
-    <value>命令</value>
+    <value>Команда</value>
   </data>
   <data name="ExecutableConfigWindowCommandsEnabled" xml:space="preserve">
-    <value>启用命令</value>
+    <value>Включить команды</value>
   </data>
   <data name="ExecutableConfigWindowCommandsEnabledDesc" xml:space="preserve">
-    <value>启用向控制台写入命令</value>
+    <value>Включает запись команд в консоль</value>
   </data>
   <data name="ExecutableConfigWindowCommandsExport" xml:space="preserve">
-    <value>导出...</value>
+    <value>Экспорт...</value>
   </data>
   <data name="ExecutableConfigWindowCommandsImport" xml:space="preserve">
-    <value>导入...</value>
+    <value>Импорт...</value>
   </data>
   <data name="ExecutableConfigWindowConfigFile" xml:space="preserve">
-    <value>配置文件</value>
+    <value>Файл конфигурации</value>
   </data>
   <data name="ExecutableConfigWindowDelay" xml:space="preserve">
-    <value>启动延迟</value>
+    <value>Задержка запуска</value>
   </data>
   <data name="ExecutableConfigWindowDelayDesc" xml:space="preserve">
-    <value>启动前的等待时间（毫秒）</value>
+    <value>Время ожидания перед запуском (миллисекунды)</value>
   </data>
   <data name="ExecutableConfigWindowDeleteButton" xml:space="preserve">
-    <value>删除可执行文件</value>
+    <value>Удалить исполняемый файл</value>
   </data>
   <data name="ExecutableConfigWindowDeleteFilePromptCaption" xml:space="preserve">
-    <value>删除配置文件</value>
+    <value>Удалить файл конфигурации</value>
   </data>
   <data name="ExecutableConfigWindowDeleteFilePromptMessage" xml:space="preserve">
-    <value>您确定要删除配置文件 '{0}' 吗？
-该文件将被永久删除。</value>
+    <value>Вы уверены, что хотите удалить файл конфигурации '{0}'?
+Файл будет удалён навсегда.</value>
   </data>
   <data name="ExecutableConfigWindowGbOptionsHeader" xml:space="preserve">
-    <value>可执行文件选项</value>
+    <value>Параметры исполняемого файла</value>
   </data>
   <data name="ExecutableConfigWindowKillOnlyCurrentPathEnabled" xml:space="preserve">
-    <value>仅终止当前路径</value>
+    <value>Завершать только текущий путь</value>
   </data>
   <data name="ExecutableConfigWindowKillOnlyCurrentPathEnabledDesc" xml:space="preserve">
-    <value>如果启用，仅终止在同一路径运行的进程。否则，任何同名进程都将被终止。</value>
+    <value>Если включено, завершаются только процессы, запущенные по тому же пути. В противном случае завершается любой процесс с тем же именем.</value>
   </data>
   <data name="ExecutableConfigWindowMultipleInstancesEnabled" xml:space="preserve">
-    <value>允许多实例</value>
+    <value>Разрешить несколько экземпляров</value>
   </data>
   <data name="ExecutableConfigWindowMultipleInstancesEnabledDesc" xml:space="preserve">
-    <value>允许运行多个同名进程（CasparCG.exe 允许在参数字段中指定不同的配置文件路径）</value>
+    <value>Включает запуск нескольких процессов с одним именем (CasparCG.exe позволяет использовать разные файлы конфигурации, указывая путь в поле аргументов)</value>
   </data>
   <data name="ExecutableConfigWindowName" xml:space="preserve">
-    <value>名称</value>
+    <value>Имя</value>
   </data>
   <data name="ExecutableConfigWindowPath" xml:space="preserve">
-    <value>可执行文件路径</value>
+    <value>Путь исполняемого файла</value>
   </data>
   <data name="ExecutableConfigWindowTitle" xml:space="preserve">
-    <value>可执行文件配置</value>
+    <value>Конфигурация исполняемого файла</value>
   </data>
   <data name="ExecutableErrorMessage" xml:space="preserve">
-    <value>启动进程时出错</value>
+    <value>Ошибка при запуске процесса</value>
   </data>
   <data name="ExecutableNotFoundWarningCaption" xml:space="preserve">
-    <value>路径错误</value>
+    <value>Неверный путь</value>
   </data>
   <data name="ExecutableNotFoundWarningMessage" xml:space="preserve">
-    <value>请检查可执行文件路径</value>
+    <value>Проверьте путь к исполняемому файлу</value>
   </data>
   <data name="ExecutableStartedMessage" xml:space="preserve">
-    <value>进程已成功启动</value>
+    <value>Процесс успешно запущен</value>
   </data>
   <data name="ExecutableStoppedMessage" xml:space="preserve">
-    <value>进程已停止</value>
+    <value>Процесс остановлен</value>
   </data>
   <data name="ExecutableTabNotFoundCaption" xml:space="preserve">
-    <value>可执行文件路径错误</value>
+    <value>Неверный путь исполняемого файла</value>
   </data>
   <data name="ExecutableTabNotFoundMessage" xml:space="preserve">
-    <value>请在可执行文件配置窗口中设置正确的路径</value>
+    <value>Установите правильный путь в окне конфигурации исполняемого файла</value>
   </data>
   <data name="ExecutableTabOpenConfigButton" xml:space="preserve">
-    <value>打开配置</value>
+    <value>Открыть конфигурацию</value>
   </data>
   <data name="FFConsumer" xml:space="preserve">
-    <value>FFmpeg 输出</value>
+    <value>Выход FFmpeg</value>
   </data>
   <data name="FfmpegDeinterlace_All" xml:space="preserve">
-    <value>全部</value>
+    <value>Все</value>
   </data>
   <data name="FfmpegDeinterlace_Interlaced" xml:space="preserve">
-    <value>交错</value>
+    <value>Чересстрочное</value>
   </data>
   <data name="FfmpegDeinterlace_None" xml:space="preserve">
-    <value>无</value>
+    <value>Нет</value>
   </data>
   <data name="FileDialogFilterDescription" xml:space="preserve">
-    <value>可执行文件</value>
+    <value>Исполняемые файлы</value>
   </data>
   <data name="HtmlAngleGraphicsBackend_D3D11" xml:space="preserve">
     <value>D3D11</value>
@@ -877,10 +877,10 @@
     <value>OpenGL</value>
   </data>
   <data name="IvgaConsumer" xml:space="preserve">
-    <value>iVGA 输出</value>
+    <value>Выход iVGA</value>
   </data>
   <data name="LanguagesDefault" xml:space="preserve">
-    <value>默认</value>
+    <value>По умолчанию</value>
   </data>
   <data name="LanguagesEnglish" xml:space="preserve">
     <value>English</value>
@@ -891,53 +891,56 @@
   <data name="Languages简体中文" xml:space="preserve">
     <value>简体中文</value>
   </data>
+  <data name="LanguagesRussian" xml:space="preserve">
+    <value>Русский</value>
+  </data>
   <data name="LogLevel_Debug" xml:space="preserve">
-    <value>调试</value>
+    <value>Отладка</value>
   </data>
   <data name="LogLevel_Error" xml:space="preserve">
-    <value>错误</value>
+    <value>Ошибка</value>
   </data>
   <data name="LogLevel_Fatal" xml:space="preserve">
-    <value>致命</value>
+    <value>Критическая</value>
   </data>
   <data name="LogLevel_Info" xml:space="preserve">
-    <value>信息</value>
+    <value>Информация</value>
   </data>
   <data name="LogLevel_Trace" xml:space="preserve">
-    <value>跟踪</value>
+    <value>Трассировка</value>
   </data>
   <data name="LogLevel_Warning" xml:space="preserve">
-    <value>警告</value>
+    <value>Предупреждение</value>
   </data>
   <data name="MenuBarOptionsMenuHeader" xml:space="preserve">
-    <value>选项</value>
+    <value>Параметры</value>
   </data>
   <data name="NdiConsumer" xml:space="preserve">
-    <value>NDI 输出</value>
+    <value>Выход NDI</value>
   </data>
   <data name="NewExecutableName" xml:space="preserve">
-    <value>新可执行文件</value>
+    <value>Новый исполняемый файл</value>
   </data>
   <data name="NotRunning" xml:space="preserve">
-    <value>未运行</value>
+    <value>Не запущен</value>
   </data>
   <data name="OpenConfigEditorEditButtonText" xml:space="preserve">
-    <value>编辑文件</value>
+    <value>Редактировать файл</value>
   </data>
   <data name="OpenConfigEditorErrorCaption" xml:space="preserve">
-    <value>错误</value>
+    <value>Ошибка</value>
   </data>
   <data name="OpenConfigEditorFileError" xml:space="preserve">
-    <value>配置文件格式错误</value>
+    <value>Файл конфигурации имеет неправильный формат</value>
   </data>
   <data name="OpenConfigEditorIOError" xml:space="preserve">
-    <value>打开配置文件时出错</value>
+    <value>Ошибка открытия файла конфигурации</value>
   </data>
   <data name="OpenConfigEditorNewButtonText" xml:space="preserve">
-    <value>新建文件</value>
+    <value>Новый файл</value>
   </data>
   <data name="Running" xml:space="preserve">
-    <value>运行中</value>
+    <value>Запущен</value>
   </data>
   <data name="ScreenAspectRatio_16:9" xml:space="preserve">
     <value>16:9</value>
@@ -946,77 +949,77 @@
     <value>4:3</value>
   </data>
   <data name="ScreenAspectRatio_Default" xml:space="preserve">
-    <value>默认</value>
+    <value>По умолчанию</value>
   </data>
   <data name="ScreenColourSpace_DataVideo_Full" xml:space="preserve">
-    <value>DataVideo（完整）</value>
+    <value>DataVideo (Полный)</value>
   </data>
   <data name="ScreenColourSpace_DataVideo_Limited" xml:space="preserve">
-    <value>DataVideo（受限）</value>
+    <value>DataVideo (Ограниченный)</value>
   </data>
   <data name="ScreenColourSpace_RGB" xml:space="preserve">
     <value>RGB</value>
   </data>
   <data name="ScreenConsumer" xml:space="preserve">
-    <value>屏幕输出</value>
+    <value>Выход на экран</value>
   </data>
   <data name="ScreenStretch_Fill" xml:space="preserve">
-    <value>填充</value>
+    <value>Заполнение</value>
   </data>
   <data name="ScreenStretch_None" xml:space="preserve">
-    <value>无</value>
+    <value>Нет</value>
   </data>
   <data name="ScreenStretch_Uniform" xml:space="preserve">
-    <value>均匀</value>
+    <value>Равномерное</value>
   </data>
   <data name="ScreenStretch_UniformToFill" xml:space="preserve">
-    <value>均匀填充</value>
+    <value>Равномерное до заполнения</value>
   </data>
   <data name="StatusTabHeader" xml:space="preserve">
-    <value>状态</value>
+    <value>Состояние</value>
   </data>
   <data name="SystemAudioChannelLayout_Matrix" xml:space="preserve">
-    <value>矩阵</value>
+    <value>Матрица</value>
   </data>
   <data name="SystemAudioChannelLayout_Mono" xml:space="preserve">
-    <value>单声道</value>
+    <value>Моно</value>
   </data>
   <data name="SystemAudioChannelLayout_Stereo" xml:space="preserve">
-    <value>立体声</value>
+    <value>Стерео</value>
   </data>
   <data name="SystemAudioConsumer" xml:space="preserve">
-    <value>系统音频输出</value>
+    <value>Выход системного звука</value>
   </data>
   <data name="UptimeDaysFormat" xml:space="preserve">
-    <value>{0:%d} 天，</value>
-    <comment>注意末尾的空格</comment>
+    <value>{0:%d} дней, </value>
+    <comment>Обратите внимание на пробел в конце</comment>
   </data>
   <data name="UptimeTimeFormat" xml:space="preserve">
     <value>{0:%h\:mm\:ss}</value>
   </data>
   <data name="ContextMenuExecGridItemHeader" xml:space="preserve">
-    <value>打开通道网格窗口</value>
+    <value>Открыть окно сетки каналов</value>
   </data>
   <data name="ExportCommandsDialogTitle" xml:space="preserve">
-    <value>选择导出位置</value>
+    <value>Выбрать место экспорта</value>
   </data>
   <data name="ImportCommandsDialogTitle" xml:space="preserve">
-    <value>选择包含命令的文件</value>
+    <value>Выбрать файл с командами</value>
   </data>
   <data name="ExecutableConfigWindowScannerPort" xml:space="preserve">
-    <value>媒体扫描器端口</value>
+    <value>Порт сканера медиа</value>
   </data>
   <data name="ConfigWindowOptionsTabHtmlCachePath" xml:space="preserve">
-    <value>缓存路径</value>
+    <value>Путь к кэшу</value>
   </data>
   <data name="ConfigWindowOptionsTabHtmlCachePathDescription" xml:space="preserve">
-    <value>（CEF 默认在可执行文件旁边写入缓存，可能会因权限问题而失败。此选项可更改为使用其他路径）</value>
+    <value>(CEF записывает некоторые кэши рядом с исполняемым файлом, что может не работать в зависимости от разрешений. Это изменяет путь на другой)</value>
   </data>
   <data name="ChannelColorDepth_8" xml:space="preserve">
-    <value>8 位</value>
+    <value>8-бит</value>
   </data>
   <data name="ChannelColorDepth_16" xml:space="preserve">
-    <value>16 位</value>
+    <value>16-бит</value>
   </data>
   <data name="ChannelColorSpace_BT709" xml:space="preserve">
     <value>BT.709</value>
@@ -1034,140 +1037,140 @@
     <value>BT.2020</value>
   </data>
   <data name="ConfigWindowChannelsDlHdrMaxCll" xml:space="preserve">
-    <value>最大内容亮度（MaxCLL）</value>
+    <value>MaxCLL</value>
   </data>
   <data name="ConfigWindowChannelsDlHdrMaxFall" xml:space="preserve">
-    <value>最大帧平均亮度（MaxFALL）</value>
+    <value>MaxFALL</value>
   </data>
   <data name="ConfigWindowChannelsDlHdrMaxDml" xml:space="preserve">
-    <value>最大显示亮度（MaxDML）</value>
+    <value>MaxDML</value>
   </data>
   <data name="ConfigWindowChannelsDlHdrMinDml" xml:space="preserve">
-    <value>最小显示亮度（MinDML）</value>
+    <value>MinDML</value>
   </data>
   <data name="ConfigWindowChannelsDlHdrMetadata" xml:space="preserve">
-    <value>HDR 元数据</value>
+    <value>Метаданные HDR</value>
   </data>
   <data name="ConfigWindowChannelsDlHdrDefaultColorSpace" xml:space="preserve">
-    <value>默认色彩空间</value>
+    <value>Цветовое пространство по умолчанию</value>
   </data>
   <data name="ConfigWindowChannelsChannelColorSpace" xml:space="preserve">
-    <value>色彩空间</value>
+    <value>Цветовое пространство</value>
   </data>
   <data name="ConfigWindowChannelsChannelColorDepth" xml:space="preserve">
-    <value>色彩深度</value>
+    <value>Глубина цвета</value>
   </data>
   <data name="WebServer_Title" xml:space="preserve">
-    <value>应用程序管理</value>
+    <value>Управление приложениями</value>
   </data>
   <data name="WebServer_Loading" xml:space="preserve">
-    <value>加载中...</value>
+    <value>Загрузка...</value>
   </data>
   <data name="WebServer_Refresh" xml:space="preserve">
-    <value>刷新</value>
+    <value>Обновить</value>
   </data>
   <data name="WebServer_ErrorLoadingData" xml:space="preserve">
-    <value>加载数据出错</value>
+    <value>Ошибка загрузки данных</value>
   </data>
   <data name="WebServer_NoApplications" xml:space="preserve">
-    <value>没有要显示的应用程序</value>
+    <value>Нет приложений для отображения</value>
   </data>
   <data name="WebServer_NotFound" xml:space="preserve">
-    <value>未找到</value>
+    <value>Не найден</value>
   </data>
   <data name="WebServer_Running" xml:space="preserve">
-    <value>运行中</value>
+    <value>Запущен</value>
   </data>
   <data name="WebServer_Stopped" xml:space="preserve">
-    <value>已停止</value>
+    <value>Остановлен</value>
   </data>
   <data name="WebServer_PathNotSpecified" xml:space="preserve">
-    <value>未指定路径</value>
+    <value>Путь не указан</value>
   </data>
   <data name="WebServer_Start" xml:space="preserve">
-    <value>启动</value>
+    <value>Запустить</value>
   </data>
   <data name="WebServer_Stop" xml:space="preserve">
-    <value>停止</value>
+    <value>Остановить</value>
   </data>
   <data name="WebServer_Restart" xml:space="preserve">
-    <value>重启</value>
+    <value>Перезапустить</value>
   </data>
   <data name="WebServer_Error" xml:space="preserve">
-    <value>错误：</value>
+    <value>Ошибка: </value>
   </data>
   <data name="MenuBarWebServerMenuHeader" xml:space="preserve">
-    <value>Web 服务器</value>
+    <value>Веб-сервер</value>
   </data>
   <data name="MenuBarWebServerSettings" xml:space="preserve">
-    <value>Web 服务器设置</value>
+    <value>Настройки веб-сервера</value>
   </data>
   <data name="WebServerSettingsWindow_Title" xml:space="preserve">
-    <value>Web 服务器设置</value>
+    <value>Настройки веб-сервера</value>
   </data>
   <data name="WebServerSettings_Parameters" xml:space="preserve">
-    <value>Web 服务器参数</value>
+    <value>Параметры веб-сервера</value>
   </data>
   <data name="WebServerSettings_Port" xml:space="preserve">
-    <value>端口</value>
+    <value>Порт</value>
   </data>
   <data name="WebServerSettings_AllowedAddresses" xml:space="preserve">
-    <value>允许的地址</value>
+    <value>Разрешенные адреса</value>
   </data>
   <data name="WebServerSettings_AllowedAddressesDescription" xml:space="preserve">
-    <value>以逗号分隔的 IP 地址或主机名列表（例如：localhost,127.0.0.1,192.168.1.100）。使用 * 允许所有地址。</value>
+    <value>Список IP-адресов или имен хостов, разделенных запятыми (например: localhost,127.0.0.1,192.168.1.100). Используйте * для разрешения всех адресов.</value>
   </data>
   <data name="WebServerSettings_AutoStart" xml:space="preserve">
-    <value>自动启动</value>
+    <value>Автостарт</value>
   </data>
   <data name="WebServerSettings_AutoStartDescription" xml:space="preserve">
-    <value>在应用程序启动时自动启动 Web 服务器</value>
+    <value>Автоматически запускать веб-сервер при старте приложения</value>
   </data>
   <data name="WebServerSettings_Status" xml:space="preserve">
-    <value>状态</value>
+    <value>Статус</value>
   </data>
   <data name="WebServerSettings_StatusFormat" xml:space="preserve">
-    <value>状态：{0}</value>
+    <value>Статус: {0}</value>
   </data>
   <data name="WebServerSettings_Stopped" xml:space="preserve">
-    <value>已停止</value>
+    <value>Остановлен</value>
   </data>
   <data name="WebServerSettings_UrlFormat" xml:space="preserve">
-    <value>URL：{0}</value>
+    <value>URL: {0}</value>
   </data>
   <data name="WebServerSettings_NotRunning" xml:space="preserve">
-    <value>未运行</value>
+    <value>Не запущен</value>
   </data>
   <data name="WebServerSettings_ApiEndpoints" xml:space="preserve">
-    <value>API 端点：</value>
+    <value>API endpoints:</value>
   </data>
   <data name="WebServerSettings_ApiGetExecutables" xml:space="preserve">
-    <value>GET /api/executables - 列出应用程序</value>
+    <value>GET /api/executables - список приложений</value>
   </data>
   <data name="WebServerSettings_ApiStart" xml:space="preserve">
-    <value>POST /api/executables/{id}?action=start - 启动</value>
+    <value>POST /api/executables/{id}?action=start - запустить</value>
   </data>
   <data name="WebServerSettings_ApiStop" xml:space="preserve">
-    <value>POST /api/executables/{id}?action=stop - 停止</value>
+    <value>POST /api/executables/{id}?action=stop - остановить</value>
   </data>
   <data name="WebServerSettings_ApiRestart" xml:space="preserve">
-    <value>POST /api/executables/{id}?action=restart - 重启</value>
+    <value>POST /api/executables/{id}?action=restart - перезапустить</value>
   </data>
   <data name="WebServerSettings_Close" xml:space="preserve">
-    <value>关闭</value>
+    <value>Закрыть</value>
   </data>
   <data name="WebServerSettings_InitializationError" xml:space="preserve">
-    <value>初始化 Web 服务器设置窗口时出错：{0}
+    <value>Ошибка при инициализации окна настроек веб-сервера: {0}
 
 {1}</value>
   </data>
   <data name="Launchpad_WebServerStartError" xml:space="preserve">
-    <value>Web 服务器启动错误：{0}</value>
+    <value>Ошибка запуска веб-сервера: {0}</value>
   </data>
   <data name="Launchpad_WebServerUrlError" xml:space="preserve">
-    <value>WebServerUrl 中的错误：{0}</value>
+    <value>Ошибка в WebServerUrl: {0}</value>
   </data>
   <data name="Launchpad_WebServerStatusTextError" xml:space="preserve">
-    <value>WebServerStatusText 中的错误：{0}</value>
+    <value>Ошибка в WebServerStatusText: {0}</value>
   </data>
 </root>

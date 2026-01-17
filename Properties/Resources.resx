@@ -891,6 +891,9 @@ The file will be deleted permanently.</value>
   <data name="Languages简体中文" xml:space="preserve">
     <value>简体中文</value>
   </data>
+  <data name="LanguagesRussian" xml:space="preserve">
+    <value>Russian</value>
+  </data>
   <data name="LogLevel_Debug" xml:space="preserve">
     <value>Debug</value>
   </data>
@@ -1056,5 +1059,118 @@ The file will be deleted permanently.</value>
   </data>
   <data name="ConfigWindowChannelsChannelColorDepth" xml:space="preserve">
     <value>Color depth</value>
+  </data>
+  <data name="WebServer_Title" xml:space="preserve">
+    <value>Application Management</value>
+  </data>
+  <data name="WebServer_Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="WebServer_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="WebServer_ErrorLoadingData" xml:space="preserve">
+    <value>Error loading data</value>
+  </data>
+  <data name="WebServer_NoApplications" xml:space="preserve">
+    <value>No applications to display</value>
+  </data>
+  <data name="WebServer_NotFound" xml:space="preserve">
+    <value>Not found</value>
+  </data>
+  <data name="WebServer_Running" xml:space="preserve">
+    <value>Running</value>
+  </data>
+  <data name="WebServer_Stopped" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="WebServer_PathNotSpecified" xml:space="preserve">
+    <value>Path not specified</value>
+  </data>
+  <data name="WebServer_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="WebServer_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="WebServer_Restart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="WebServer_Error" xml:space="preserve">
+    <value>Error: </value>
+  </data>
+  <data name="MenuBarWebServerMenuHeader" xml:space="preserve">
+    <value>Web Server</value>
+  </data>
+  <data name="MenuBarWebServerSettings" xml:space="preserve">
+    <value>Web Server Settings</value>
+  </data>
+  <data name="WebServerSettingsWindow_Title" xml:space="preserve">
+    <value>Web Server Settings</value>
+  </data>
+  <data name="WebServerSettings_Parameters" xml:space="preserve">
+    <value>Web Server Parameters</value>
+  </data>
+  <data name="WebServerSettings_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="WebServerSettings_AllowedAddresses" xml:space="preserve">
+    <value>Allowed Addresses</value>
+  </data>
+  <data name="WebServerSettings_AllowedAddressesDescription" xml:space="preserve">
+    <value>List of IP addresses or hostnames separated by commas (e.g.: localhost,127.0.0.1,192.168.1.100). Use * to allow all addresses.</value>
+  </data>
+  <data name="WebServerSettings_AutoStart" xml:space="preserve">
+    <value>Auto Start</value>
+  </data>
+  <data name="WebServerSettings_AutoStartDescription" xml:space="preserve">
+    <value>Automatically start the web server when the application starts</value>
+  </data>
+  <data name="WebServerSettings_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="WebServerSettings_StatusFormat" xml:space="preserve">
+    <value>Status: {0}</value>
+  </data>
+  <data name="WebServerSettings_Stopped" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="WebServerSettings_UrlFormat" xml:space="preserve">
+    <value>URL: {0}</value>
+  </data>
+  <data name="WebServerSettings_NotRunning" xml:space="preserve">
+    <value>Not running</value>
+  </data>
+  <data name="WebServerSettings_ApiEndpoints" xml:space="preserve">
+    <value>API endpoints:</value>
+  </data>
+  <data name="WebServerSettings_ApiGetExecutables" xml:space="preserve">
+    <value>GET /api/executables - list applications</value>
+  </data>
+  <data name="WebServerSettings_ApiStart" xml:space="preserve">
+    <value>POST /api/executables/{id}?action=start - start</value>
+  </data>
+  <data name="WebServerSettings_ApiStop" xml:space="preserve">
+    <value>POST /api/executables/{id}?action=stop - stop</value>
+  </data>
+  <data name="WebServerSettings_ApiRestart" xml:space="preserve">
+    <value>POST /api/executables/{id}?action=restart - restart</value>
+  </data>
+  <data name="WebServerSettings_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="WebServerSettings_InitializationError" xml:space="preserve">
+    <value>Error initializing web server settings window: {0}
+
+{1}</value>
+  </data>
+  <data name="Launchpad_WebServerStartError" xml:space="preserve">
+    <value>Web server start error: {0}</value>
+  </data>
+  <data name="Launchpad_WebServerUrlError" xml:space="preserve">
+    <value>Error in WebServerUrl: {0}</value>
+  </data>
+  <data name="Launchpad_WebServerStatusTextError" xml:space="preserve">
+    <value>Error in WebServerStatusText: {0}</value>
   </data>
 </root>

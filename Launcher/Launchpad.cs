@@ -38,6 +38,19 @@ public class Launchpad : INotifyPropertyChanged
         ParseSettings();
         if (Keyboard.Modifiers == ModifierKeys.Shift) DisableStart = true;
         InitExecutables();
+        InitializeWebServer();
+        if (WebServerAutoStart)
+        {
+            try
+            {
+                WebServer?.Start();
+            }
+            catch (Exception ex)
+            {
+                var errorMsg = L.ResourceManager.GetString("Launchpad_WebServerStartError", L.Culture) ?? $"Web server start error: {ex.Message}";
+                Debug.WriteLine(errorMsg);
+            }
+        }
     }
 
     #region LAUNCHER SETTINGS
@@ -224,6 +237,204 @@ public class Launchpad : INotifyPropertyChanged
     {
         get => CropConsole ? new(10d, DataGridLengthUnitType.Star) : new(10d, DataGridLengthUnitType.Auto);
         set { }
+    }
+
+    private int? _webServerPort;
+    public int WebServerPort
+    {
+        get
+        {
+            _webServerPort ??= S.GetOrSetValue("/webserver/port", 8080);
+            return _webServerPort ?? 8080;
+        }
+        set
+        {
+            if (_webServerPort != value)
+            {
+                _webServerPort = value;
+                S.Set("/webserver/port", value);
+                OnPropertyChanged(nameof(WebServerPort));
+                if (WebServer?.IsRunning == true)
+                {
+                    WebServer.Stop();
+                    WebServer.Port = value;
+                    if (WebServerAutoStart) WebServer.Start();
+                    OnPropertyChanged(nameof(WebServerStatusText));
+                    OnPropertyChanged(nameof(WebServerUrl));
+                }
+                else
+                {
+                    if (WebServer != null)
+                    {
+                        WebServer.Port = value;
+                    }
+                    OnPropertyChanged(nameof(WebServerUrl));
+                }
+            }
+        }
+    }
+
+    private string? _webServerAllowedAddresses;
+    public string WebServerAllowedAddresses
+    {
+        get
+        {
+            _webServerAllowedAddresses ??= S.GetOrSetValue("/webserver/allowed-addresses", "localhost,127.0.0.1");
+            return _webServerAllowedAddresses ?? "localhost,127.0.0.1";
+        }
+        set
+        {
+            if (_webServerAllowedAddresses != value)
+            {
+                _webServerAllowedAddresses = value;
+                S.Set("/webserver/allowed-addresses", value);
+                OnPropertyChanged(nameof(WebServerAllowedAddresses));
+                
+                var addresses = value.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries).ToList();
+                
+                if (WebServer == null)
+                {
+                    InitializeWebServer();
+                }
+                
+                if (WebServer != null)
+                {
+                    WebServer.AllowedAddresses = addresses;
+                }
+                
+                if (WebServer?.IsRunning == true)
+                {
+                    WebServer.Stop();
+                    if (WebServerAutoStart) WebServer.Start();
+                    OnPropertyChanged(nameof(WebServerStatusText));
+                    OnPropertyChanged(nameof(WebServerUrl));
+                }
+                else
+                {
+                    OnPropertyChanged(nameof(WebServerUrl));
+                }
+            }
+        }
+    }
+
+    private bool? _webServerAutoStart;
+    public bool WebServerAutoStart
+    {
+        get
+        {
+            _webServerAutoStart ??= S.GetOrSetValue("/webserver/autostart", false);
+            return _webServerAutoStart ?? false;
+        }
+        set
+        {
+            if (_webServerAutoStart != value)
+            {
+                _webServerAutoStart = value;
+                S.Set("/webserver/autostart", value);
+                OnPropertyChanged(nameof(WebServerAutoStart));
+                
+                if (value)
+                {
+                    InitializeWebServer();
+                    if (WebServer != null && !WebServer.IsRunning)
+                    {
+                        try
+                        {
+                            WebServer.Start();
+                            OnPropertyChanged(nameof(WebServerStatusText));
+                            OnPropertyChanged(nameof(WebServerUrl));
+                        }
+                        catch (Exception ex)
+                        {
+                            var errorMsg = L.ResourceManager.GetString("Launchpad_WebServerStartError", L.Culture) ?? $"Web server start error: {ex.Message}";
+                            Debug.WriteLine(errorMsg);
+                            OnPropertyChanged(nameof(WebServerStatusText));
+                            OnPropertyChanged(nameof(WebServerUrl));
+                        }
+                    }
+                }
+                else if (!value && WebServer?.IsRunning == true)
+                {
+                    try
+                    {
+                        WebServer.Stop();
+                        OnPropertyChanged(nameof(WebServerStatusText));
+                        OnPropertyChanged(nameof(WebServerUrl));
+                    }
+                    catch (Exception ex)
+                    {
+                        Debug.WriteLine($"Error stopping web server: {ex.Message}");
+                        OnPropertyChanged(nameof(WebServerStatusText));
+                        OnPropertyChanged(nameof(WebServerUrl));
+                    }
+                }
+            }
+        }
+    }
+
+    public WebServer? WebServer { get; private set; }
+
+    public string WebServerUrl
+    {
+        get
+        {
+            try
+            {
+                if (WebServer == null || !WebServer.IsRunning) 
+                    return L.ResourceManager.GetString("WebServerSettings_NotRunning", L.Culture) ?? "Not running";
+                
+                var addressesStr = WebServerAllowedAddresses ?? "localhost,127.0.0.1";
+                if (string.IsNullOrWhiteSpace(addressesStr)) addressesStr = "localhost,127.0.0.1";
+                
+                var addresses = addressesStr
+                    .Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+                    .Where(a => !string.IsNullOrWhiteSpace(a))
+                    .Select(a => $"http://{a.Trim()}:{WebServerPort}");
+                
+                return string.Join(", ", addresses);
+            }
+            catch (Exception ex)
+            {
+                var errorMsg = L.ResourceManager.GetString("Launchpad_WebServerUrlError", L.Culture) ?? $"Error in WebServerUrl: {ex.Message}";
+                Debug.WriteLine(errorMsg);
+                return L.ResourceManager.GetString("WebServerSettings_NotRunning", L.Culture) ?? "Not running";
+            }
+        }
+    }
+
+    public string WebServerStatusText
+    {
+        get
+        {
+            try
+            {
+                if (WebServer == null) 
+                    return L.ResourceManager.GetString("WebServer_Stopped", L.Culture) ?? "Stopped";
+                var running = L.ResourceManager.GetString("WebServer_Running", L.Culture) ?? "Running";
+                var stopped = L.ResourceManager.GetString("WebServer_Stopped", L.Culture) ?? "Stopped";
+                return WebServer.IsRunning ? running : stopped;
+            }
+            catch (Exception ex)
+            {
+                var errorMsg = L.ResourceManager.GetString("Launchpad_WebServerStatusTextError", L.Culture) ?? $"Error in WebServerStatusText: {ex.Message}";
+                Debug.WriteLine(errorMsg);
+                return L.ResourceManager.GetString("WebServer_Stopped", L.Culture) ?? "Stopped";
+            }
+        }
+    }
+
+    internal void InitializeWebServer()
+    {
+        if (WebServer == null)
+        {
+            WebServer = new WebServer
+            {
+                Port = WebServerPort,
+                AllowedAddresses = WebServerAllowedAddresses
+                    .Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+                    .ToList()
+            };
+        }
     }
 
     #endregion
@@ -454,6 +665,7 @@ public class Launchpad : INotifyPropertyChanged
     internal static void StopAll()
     {
         foreach (Executable ex in App.Launchpad.Executables.Where(ex => ex.IsRunning)) ex.Stop();
+        App.Launchpad.WebServer?.Stop();
     }
 
     internal static void RestartAll()

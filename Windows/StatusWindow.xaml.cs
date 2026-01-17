@@ -313,4 +313,13 @@ public partial class StatusWindow : AppWindow
         about.Owner = this;
         about.ShowDialog();
     }
+
+    private void WebServerSettings_Click(object sender, RoutedEventArgs e)
+    {
+        WebServerSettingsWindow settingsWindow = new()
+        {
+            Owner = this
+        };
+        settingsWindow.ShowDialog();
+    }
 }

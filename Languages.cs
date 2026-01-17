@@ -12,5 +12,8 @@ public enum Languages
     es,
 
     [Display(Description = "Languages简体中文", ResourceType = typeof(L))]
-    zh_Hans
+    zh_Hans,
+
+    [Display(Description = "LanguagesRussian", ResourceType = typeof(L))]
+    ru
 }
